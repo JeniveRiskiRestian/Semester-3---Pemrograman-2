@@ -92,7 +92,7 @@ public class AplikasiGUI extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel1.setText("DATA MAHASISWA ILKOM UNU BLITAR 2023");
 
-        jPanel1.setBackground(new java.awt.Color(0, 204, 102));
+        jPanel1.setBackground(new java.awt.Color(102, 102, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Input Data Mahasiswa"));
 
         jLabel3.setText("NIM");
@@ -208,7 +208,7 @@ public class AplikasiGUI extends javax.swing.JFrame {
 
         jLabel2.setText("Status Koneksi");
 
-        jPanel2.setBackground(new java.awt.Color(0, 204, 102));
+        jPanel2.setBackground(new java.awt.Color(204, 204, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Output Data Mahasiswa"));
 
         tabelidentitas.setModel(new javax.swing.table.DefaultTableModel(

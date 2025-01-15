@@ -21,12 +21,12 @@ public class Koneksi {
             String password = "";
             Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection(connectionURL, username, password);
-           // JOptionPane.showMessageDialog(null, "Sukses Koneksi");
+            //JOptionPane.showMessageDialog(null, "Sukses Koneksi");
             statusKoneksi = "Berhasil";
         } catch (ClassNotFoundException e) {
             JOptionPane.showMessageDialog(null, "Driver tidak ditemukan: " + e.getMessage());
         } catch (SQLException e) {
-           // JOptionPane.showMessageDialog(null, "Koneksi gagal: " + e.getMessage());
+           //JOptionPane.showMessageDialog(null, "Koneksi gagal: " + e.getMessage());
             statusKoneksi = "Gagal";
         }
     }
